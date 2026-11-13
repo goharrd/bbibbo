@@ -1,0 +1,24 @@
+//선언방법 publuc 리턴타입 메소드명 (매개변수 들) {구현}
+public class MyClass{
+    public void method1(){
+        //리턴타입이 없을때는 void를 사용한다.
+        System.out.println("m1 이 실행됨..");
+    }
+
+    public void method2(int x){
+        System.out.println(x+"를 이용한 m2실행");
+    }
+
+    public int method3(){
+        System.out.println("m3 실행됨");
+        return 100;
+    }
+
+    public void method4(int x, int y){
+        System.out.println(x+"와 "+y+"를 이용한 m4실행");
+    }
+    public int method5(int x, int y){
+        System.out.println(x+"와 "+y+"를 이용한 m5실행");
+        return x+y;
+    }
+}
